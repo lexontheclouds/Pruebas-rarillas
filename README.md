@@ -1,47 +1,45 @@
-# TODAVIA NO SE USAR MUCHO HTML Y DEMAS, MUCHO CODIGO ES CON IA ⚠️
+# Proyecto en desarrollo. Muchas cosas estan Rotas y hechas con ayuda de copilot.⚠️
 
 
-# Social Media Links Project
+# Proyecto Enlaces de Redes Sociales
 
-This project is a simple web application that displays links to various social media profiles. It is designed to be easy to set up and customize.
+Este proyecto es una aplicación web sencilla que muestra enlaces a varios perfiles de redes sociales. Está diseñada para ser fácil de configurar y personalizar.
 
-## Project Structure
+## Estructura del proyecto
 
 ```
 social-media-links
 ├── src
-│   ├── index.html        # Main HTML document
+│   ├── index.html        # Documento HTML principal
 │   ├── styles
-│   │   └── style.css     # CSS styles for the webpage
+│   │   └── style.css     # Estilos CSS para la página
 │   └── scripts
-│       └── main.js       # JavaScript for interactive features
-└── README.md             # Project documentation
+│       └── main.js       # JavaScript para funciones interactivas
+└── README.md             # Documentación del proyecto
 ```
 
-## Getting Started
+## Cómo empezar
 
-To get started with this project, follow these steps:
-
-1. **Clone the repository** (if applicable):
+1. **Clona el repositorio** (si aplica):
    ```
-   git clone <repository-url>
+   git clone <url-del-repositorio>
    ```
 
-2. **Navigate to the project directory**:
+2. **Entra en el directorio del proyecto**:
    ```
    cd social-media-links
    ```
 
-3. **Open the `index.html` file** in your web browser to view the application.
+3. **Abre el archivo `index.html`** en tu navegador para ver la aplicación.
 
-## Customization
+## Personalización
 
-You can customize the social media links by editing the `index.html` file. Update the `<a>` tags with your own social media URLs.
+Puedes personalizar los enlaces de redes sociales editando el archivo `index.html`. Actualiza las etiquetas `<a>` con tus propias URLs.
 
-## Dependencies
+## Dependencias
 
-This project does not have any external dependencies.
+Este proyecto no tiene dependencias externas.
 
-## License
+## Licencia
 
-This project is open source and available under the MIT License.
+Este proyecto es de código abierto y está disponible bajo la licencia MIT.
