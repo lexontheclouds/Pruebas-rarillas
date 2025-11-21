@@ -1,3 +1,6 @@
+#TODAVIA NO SE USAR MUCHO HTML Y DEMAS, MUCHO CODIGO ES CON IA ⚠️
+
+
 # Social Media Links Project
 
 This project is a simple web application that displays links to various social media profiles. It is designed to be easy to set up and customize.
