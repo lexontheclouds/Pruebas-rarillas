@@ -1,0 +1,110 @@
+/* ...existing code... */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #222;
+}
+
+h1 {
+    margin: 8px 0 0 0;
+    color: #333;
+    font-size: 1.6rem;
+}
+
+.site-header {
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 12px auto;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.subtitle {
+    margin: 6px 0 0 0;
+    color: #666;
+}
+
+/* social links */
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 12px;
+}
+
+.social-media-link {
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+    transition: transform 0.12s ease, opacity 0.12s ease;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.social-media-link:hover {
+    opacity: 0.95;
+    transform: translateY(-2px);
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.instagram {
+    background: linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+/* Responsive: en móvil, botones apilados y ancho completo */
+@media (max-width: 520px) {
+    .social-media-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-media-link {
+        width: 90%;
+        text-align: center;
+        padding: 12px 0;
+    }
+}
+
+/* Toast */
+.toast {
+    position: fixed;
+    left: 50%;
+    bottom: 24px;
+    transform: translateX(-50%) translateY(10px);
+    background: rgba(0,0,0,0.85);
+    color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+/* ...existing code... */
