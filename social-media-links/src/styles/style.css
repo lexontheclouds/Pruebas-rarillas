@@ -57,22 +57,27 @@ h1 {
     opacity: 0.95;
     transform: translateY(-2px);
 }
-
-.facebook {
-    background-color: #3b5998;
+/* ...existing code... */
+.discord {
+    background-color: #4f7bd8;
 }
 
 .twitter {
     background-color: #1da1f2;
 }
 
-.instagram {
-    background: linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+.reddit {
+    background-color: #ff4500; /* fallback */
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 100%);
 }
 
-.linkedin {
-    background-color: #0077b5;
+.tiktok {
+    background-color: #010101; /* fallback negro */
+    background: linear-gradient(135deg, #25f4ee 0%, #fe2c55 60%);
+    box-shadow: 0 6px 18px rgba(254,44,85,0.12), 0 3px 8px rgba(37,244,238,0.06);
 }
+/* ...existing code... */
+
 
 /* Responsive: en móvil, botones apilados y ancho completo */
 @media (max-width: 520px) {
